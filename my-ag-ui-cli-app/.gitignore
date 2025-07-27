@@ -1,0 +1,3 @@
+dist/
+mastra.db*
+node_modules/
