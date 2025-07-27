@@ -42,6 +42,30 @@ uv run python hello.py
 
 Visit the [AG-UI documentation](http://docs.ag-ui.com/introduction) for detailed guides and examples.
 
+## Projects
+
+### CLI Agent (`my-ag-ui-cli-app/`)
+
+A working CLI application demonstrating AG-UI integration with:
+- Real-time streaming agent responses
+- Weather API tool integration
+- Web browser launching capability
+- Persistent memory with LibSQL
+- Built with Mastra framework and OpenAI GPT-4o-mini
+
+**Quick start:**
+```bash
+cd my-ag-ui-cli-app
+npm install
+cp .env.example .env
+# Edit .env and add your OpenAI API key
+npm run dev
+```
+
+### Python Exploration
+
+Python-based experiments with AG-UI protocol using uv package management.
+
 ## Purpose
 
 This repository serves as a playground for:
